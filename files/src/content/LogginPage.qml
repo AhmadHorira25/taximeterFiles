@@ -1,12 +1,11 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-import UntitledProject3 1.0
-import "."
+//import "."
 
 Item {
     id: loginPage
-    width: Constants.width
-    height: Constants.height
+    width: 2560
+    height: 720
     property string userName: "" //"admin"
     property string passWord: ""//"admin"
     property string loginTargetPage : "Mainconsol.qml"
@@ -78,7 +77,7 @@ Item {
 
     Key_board {
         z:20
-        state:keypadinputType  // numbersstate  smalletter   capetalLetter
+        state:keypadinputType
         id:logginkeypadWindow
         visible: false
         onPressedkey: {
@@ -199,12 +198,7 @@ Item {
             Image {
                 x: 751
                 y: 30
-                source: "images/Group 74.png"
-                Image {
-                    x: 16
-                    y: 14
-                    source: "images/user.png"
-                }
+                source: "images/usernameIcon.png"
             }
             MouseArea{
                 anchors.fill: parent
@@ -282,7 +276,7 @@ Item {
             Image {
                 x: 751
                 y: 30
-                source: "images/Group 210.png"
+                source: "images/passwordIcon.png"
             }
             MouseArea{
                 anchors.fill: parent
