@@ -26,3 +26,15 @@ wairning window :
     }
 
 
+
+
+
+driver info :
+Driver_Info{
+    driverImagePath : "file://home/apDir/.../images/<image name>" // absolute dir
+    driverName :"Driver Name"
+    driverIdNNumber :"12354"
+}
+
+
+        
