@@ -87,6 +87,7 @@ Rectangle{
                     color: "#8C9BB3"
                     font.pixelSize: 32
                     verticalAlignment: Text.AlignVCenter
+                    font.weight: Font.Normal
                     font.family: "Encode Sans"
                 }
                 Text {
@@ -94,6 +95,7 @@ Rectangle{
                     text:  driverIdNNumber
                     font.pixelSize: 32
                     verticalAlignment: Text.AlignVCenter
+                    font.weight: Font.Normal
                     font.family: "Encode Sans"
                 }
             }
